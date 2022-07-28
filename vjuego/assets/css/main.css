@@ -1,0 +1,157 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(#3994db, #b4d1ed);
+    background: -moz-linear-gradient(#3994db, #b4d1ed);
+    background: -o-linear-gradient(#3994db, #b4d1ed);
+    background: -ms-linear-gradient(#3994db, #b4d1ed);
+    background: linear-gradient(#3994db, #b4d1ed);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    font-size: 14px;
+    position: fixed;
+}
+
+.course-header img {
+    margin-top: -1em;
+}
+
+.course-category ul{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    width: 85%;
+    border-radius: 20px;
+}
+
+.course-category ul li {
+    background-color: #026aa7;
+    border-radius: .5em .5em 0 0;
+    color: #fff;
+    display: inline-block;
+    width: 6.9%;
+    margin: .5%;
+    position: relative;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.course-category ul li div {
+    color: #666;
+    background-color: #fff;
+    border-bottom-left-radius: .4em;
+    border-bottom-right-radius: .4em;
+    padding: .5rem .5rem;
+    text-align: center;
+    margin-top: -4px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-weight: 200;
+}
+
+.course-category ul li picture img {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.Course-lista-container{
+
+}
+
+
+.Course-lista--principal {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    min-height: 632px;
+    padding: 0 0 0 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 85%;
+    border-radius: 20px;
+}
+
+.group-title
+{
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.group-title h1{
+    font-size: 25px;
+}
+
+.Course-lista ul {
+    padding: 1;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    list-style: none;
+    border-radius: 15px;
+    background-color:rgb(250, 250, 250);
+}
+
+/*pone la imagen de los juego una al lado de otra*/
+.CourseThumbnail {
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    max-width: 140px;
+    margin: 15px 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    -webkit-box-shadow: 0 2px 2px #e9e9e9;
+    box-shadow: 0 2px 2px #e9e9e9;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.CourseThumbnail picture{
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.CourseThumbnail .Course-title {
+    font-size: .9em;
+    color: #6b6b6b;
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    font-weight: blod;
+    padding: .2rem;
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

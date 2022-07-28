@@ -1,0 +1,33 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-image: url(../naves/wall.jpg);
+}
+h1 {
+    text-align: center;
+}
+#miCanvas {
+    border: groove 2px red;
+    background-image: url(../naves/background-pic.jpg);
+    box-shadow: 10px 10px 10px #888888;
+}
+.botonesMover{
+    color: #e8e8e8;
+    background-color: #006df1;
+    border-radius: 10px;
+    height: 30px;
+    width: 25%;
+    margin: 1%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.botonDisparo{
+    color: #e8e8e8;
+    background-color: #ae0000;
+    border-radius: 10px;
+    height: 30px;
+    width: 42%;
+    margin: 1%;
+    font-size: 14px;
+    font-weight: bold;
+}
